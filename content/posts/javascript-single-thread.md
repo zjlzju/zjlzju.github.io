@@ -35,6 +35,7 @@ javascript会先执行var和function 但是function的声明是高于var。
 写代码过程中的一点小结，暂时不保证正确性。
 
 参考：
+
 [http://www.ruanyifeng.com/blog/2014/10/event-loop.html](http://www.ruanyifeng.com/blog/2014/10/event-loop.html)
 JavaScript 运行机制详解：再谈Event Loop - 阮一峰的网络日志
 
