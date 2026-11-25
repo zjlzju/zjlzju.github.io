@@ -1,32 +1,98 @@
-<html>
-	<head>
-		<title>Welcome to ZJL's Blog</title>
-	</head>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ZJL's Blog</title>
+<style>
+  :root{
+    --bg:#f4f1ec; --card:#fbfaf7; --ink:#4a4641; --muted:#8c857b;
+    --accent:#9c8e7e; --line:#e4ded4; --shadow:rgba(74,70,65,.06);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{
+    font-family:"Noto Serif SC","Songti SC",Georgia,serif;
+    background:var(--bg); color:var(--ink); line-height:1.9;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:760px;margin:0 auto;padding:64px 24px 80px}
+  header{text-align:center;margin-bottom:56px}
+  header .logo{
+    width:96px;height:96px;border-radius:50%;object-fit:cover;
+    border:4px solid var(--card);box-shadow:0 2px 12px var(--shadow);margin-bottom:20px
+  }
+  header h1{font-size:34px;font-weight:500;letter-spacing:2px;color:var(--ink)}
+  header .sub{color:var(--muted);font-size:14px;font-style:italic;margin-top:8px;letter-spacing:1px}
+  .quote{
+    background:var(--card);border:1px solid var(--line);border-radius:14px;
+    padding:32px 36px;margin-bottom:48px;box-shadow:0 2px 14px var(--shadow);
+    font-size:15px;color:var(--muted);font-style:italic
+  }
+  .quote p{margin:6px 0}
+  .section-title{
+    font-size:13px;letter-spacing:3px;color:var(--accent);
+    text-transform:uppercase;margin-bottom:20px;
+    display:flex;align-items:center;gap:12px
+  }
+  .section-title::after{content:"";flex:1;height:1px;background:var(--line)}
+  .posts{list-style:none;margin-bottom:48px}
+  .posts li{
+    background:var(--card);border:1px solid var(--line);border-radius:12px;
+    padding:18px 22px;margin-bottom:12px;transition:transform .2s,box-shadow .2s
+  }
+  .posts li:hover{transform:translateY(-2px);box-shadow:0 4px 16px var(--shadow)}
+  .posts .date{font-size:12px;color:var(--muted);letter-spacing:1px}
+  .posts .title{font-size:18px;color:var(--ink);margin-top:4px}
+  .posts .placeholder{color:var(--muted);font-style:italic;font-size:14px}
+  .links{
+    display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-top:16px
+  }
+  .links a{
+    text-decoration:none;color:var(--ink);background:var(--card);
+    border:1px solid var(--line);border-radius:20px;padding:8px 18px;font-size:14px;
+    transition:background .2s,color .2s
+  }
+  .links a:hover{background:var(--accent);color:#fff}
+  footer{text-align:center;color:var(--muted);font-size:12px;margin-top:64px;letter-spacing:1px}
+  @media(max-width:600px){
+    .wrap{padding:40px 18px 60px}
+    header h1{font-size:28px}
+    .quote{padding:24px 22px}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
 
-	<body>
+  <header>
+    <img class="logo" src="Ryoma.jpg" alt="Ryoma">
+    <h1>Welcome to ZJL's Blog</h1>
+    <div class="sub">一些记录，一些想法</div>
+  </header>
 
-	<h1 align="center">Welcome to ZJL's Blog~</h1>
-	<p align="center"  style="font-size:0.8em; font-style:italic; line-height:2px">真正的释怀，不是抱怨坏境和其他人，</p>
-	<p align="center"  style="font-size:0.8em; font-style:italic; line-height:2px">而是认识到自己的缺点和不足而去正视它与接纳它，这样才能更好地也更加自信地走下去。</p>
-	<p align="center"  style="font-size:0.8em; font-style:italic; line-height:2px">因为我相信我犯过的错今后不会再犯，因为我相信我会变得更加成熟也更加从容。</p>
+  <div class="quote">
+    <p>真正的释怀，不是抱怨坏境和其他人，</p>
+    <p>而是认识到自己的缺点和不足而去正视它与接纳它，这样才能更好地也更加自信地走下去。</p>
+    <p>因为我相信我犯过的错今后不会再犯，因为我相信我会变得更加成熟也更加从容。</p>
+  </div>
 
-	<br>
-	<div style="text-align: center;">
-	<img src="Ryoma.jpg">
-	</div>
+  <div class="section-title">文章</div>
+  <ul class="posts">
+    <li>
+      <div class="date">施工中</div>
+      <div class="title placeholder">第一篇文章，正在路上……</div>
+    </li>
+  </ul>
 
-	<p align="center">乒乒乓乓......施工中......</p>
+  <div class="section-title">友情链接</div>
+  <div class="links">
+    <a href="https://tuchong.com/1826514/" target="_blank" rel="noopener">泡泡的图虫</a>
+    <a href="https://blog.csdn.net/marmove" target="_blank" rel="noopener">张奇的博客</a>
+    <a href="https://www.instagram.com/jianlianz/" target="_blank" rel="noopener">Instagram</a>
+  </div>
 
-	<br>
+  <footer>© 2026 Jianlian Zhang · Built with GitHub Pages</footer>
 
-	<div align="center">
-	<p style="line-height:0px">友情链接：</p>
-	<a href="https://tuchong.com/1826514/">泡泡的图虫</a>
-	<a href="https://blog.csdn.net/marmove">张奇的博客</a>
-	<br>	
-	<a href="https://www.instagram.com/jianlianz/">Instagram📷</a>
-	</div>
-
-	</body>
-
+</div>
+</body>
 </html>
