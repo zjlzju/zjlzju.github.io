@@ -18,13 +18,11 @@ JavaScript的所有任务可以分为同步任务和异步任务。执行机制�
 JavaScript会先执行执行栈里面的任务，当执行栈任务空掉后，会把任务队列中的任务按照先后顺序放到执行栈中执行。回调函数是放入任务队列中的。
 
 下面的代码，当while执行时候，setTimeout永远不会执行。
+```
 var isEnd = true;
 window.setTimeout(function () {
-```
-                         isEnd = false;//1s后，改变isEnd的值
-```
+    isEnd = false;//1s后，改变isEnd的值
 }, 1000);     //这个while永远的占用了js线程，所以setTimeout里面的函数永远不会执行
-```
             while (isEnd);
             //alert也永远不会弹出     alert('end');
 ```
@@ -41,11 +39,9 @@ javascript会先执行var和function 但是function的声明是高于var。
 JavaScript 运行机制详解：再谈Event Loop - 阮一峰的网络日志
 
 [https://www.cnblogs.com/Mainz/p/3552717.html](https://www.cnblogs.com/Mainz/p/3552717.html)
-```
 Javascript是单线程的深入分析 - Mainz - 博客园
 
-https://www.jb51.net/article/36755.htm
-```
+[https://www.jb51.net/article/36755.htm](https://www.jb51.net/article/36755.htm)
 js 程序执行与顺序实现详解_javascript技巧_脚本之家
 
 [https://www.zhihu.com/question/22949631](https://www.zhihu.com/question/22949631)
