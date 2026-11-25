@@ -1,0 +1,25 @@
+baseURL = "https://zjlzju.github.io/"
+languageCode = "zh-CN"
+title = "ZJL's Blog"
+enableRobotsTXT = true
+defaultContentLanguage = "zh-CN"
+
+[params]
+  description = "一些记录，一些想法"
+  author = "Jianlian Zhang"
+
+[[params.links]]
+  name = "泡泡的图虫"
+  url = "https://tuchong.com/1826514/"
+
+[[params.links]]
+  name = "张奇的博客"
+  url = "https://blog.csdn.net/marmove"
+
+[[params.links]]
+  name = "Instagram"
+  url = "https://www.instagram.com/jianlianz/"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
