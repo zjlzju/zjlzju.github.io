@@ -14,11 +14,11 @@ Python3-m install docplex
 **2、** Install CPLEX_Studio128/python
 ```
 cd /Applications/CPLEX_Studio128/python
-```
 python3 setup.py install
+```
 
-**The documentation can be found here: https://github.com/IBMDecisionOptimization/docplex-doc
-**The examples can be found here: https://github.com/IBMDecisionOptimization/docplex-examples
+The documentation can be found here: https://github.com/IBMDecisionOptimization/docplex-doc
+The examples can be found here: https://github.com/IBMDecisionOptimization/docplex-examples
 
 **3、** Set up the     prescriptive model
 

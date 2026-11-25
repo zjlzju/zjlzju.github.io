@@ -90,8 +90,6 @@ Reference
 [http://blog.csdn.net/mai00dou/article/details/48102413](http://blog.csdn.net/mai00dou/article/details/48102413)
 [http://bbs.feng.com/read-htm-tid-5583579.html](http://bbs.feng.com/read-htm-tid-5583579.html)
 解决unsafe use...with restricted binary问题：
-```
-https://stackoverflow.com/questions/32942571/how-to-install-python-opencv-on-mac-os-10-11 （通过该方案解决的问题）
-https://stackoverflow.com/questions/33260490/python-opencv-error-import-cv2-importerror-dlopen-after-update-of-os-x-el-capit
-https://segmentfault.com/q/1010000005751879
-```
+[How to install python opencv on mac OS 10.11](https://stackoverflow.com/questions/32942571/how-to-install-python-opencv-on-mac-os-10-11)（通过该方案解决的问题）
+[python opencv error import cv2 importerror](https://stackoverflow.com/questions/33260490/python-opencv-error-import-cv2-importerror-dlopen-after-update-of-os-x-el-capit)
+[segmentfault 相关问题](https://segmentfault.com/q/1010000005751879)
